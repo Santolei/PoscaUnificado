@@ -39,7 +39,7 @@
 
   //    Envio correo
 
-  $para = 'contacto@estudioposcaconcaran.com.ar'; // TEMPORAL
+  $para = 'estudioposcaconcaran@gmail.com'; // TEMPORAL
 	$titulo = 'Contacto Web Estudio Posca - Concarán San Luis';
 	$header = 'From: ' . $email;
 	$msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Asunto: $asunto\n Mensaje:\n $mensaje";

@@ -9,14 +9,14 @@ $ipod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
 // check if is a mobile
 if ($iphone || $android || $palmpre || $ipod || $berry == true)
 {
- header('Location: https://api.whatsapp.com/send?phone=549266XXXXXXX'); // TEMPORAL
+ header('Location: https://api.whatsapp.com/send?phone=5492665120715'); // TEMPORAL
  //OR
- echo "<script>window.location='https://api.whatsapp.com/send?phone=549266XXXXXXX'</script>";
+ echo "<script>window.location='https://api.whatsapp.com/send?phone=5492665120715'</script>";
 }
 // all others
 else {
- header('Location: https://web.whatsapp.com/send?phone=549266XXXXXXX'); // TEMPORAL
+ header('Location: https://web.whatsapp.com/send?phone=5492665120715'); // TEMPORAL
  //OR
- echo "<script>window.location='https://web.whatsapp.com/send?phone=549266XXXXXXX'</script>";
+ echo "<script>window.location='https://web.whatsapp.com/send?phone=5492665120715'</script>";
 }
 ?>
