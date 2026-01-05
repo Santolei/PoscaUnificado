@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy merlo-san-luiscssplugins.css csssharedplugins.css)",
+      "Bash(xcopy:*)",
+      "Bash(copy merlo-san-luisjsjquery-3.0.0.min.js jsshared )",
+      "Bash(copy merlo-san-luisjsjquery-migrate-3.0.0.min.js jsshared )",
+      "Bash(copy merlo-san-luisjsbootstrap.min.js jsshared )",
+      "Bash(copy merlo-san-luisjspopper.min.js jsshared )",
+      "Bash(copy merlo-san-luisjsaos.js jsshared)",
+      "Bash(copy:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

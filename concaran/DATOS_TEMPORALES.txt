@@ -1,0 +1,44 @@
+===========================================
+DATOS TEMPORALES - OFICINA CONCARÁN
+===========================================
+
+IMPORTANTE: ESTOS DATOS SON PLACEHOLDERS Y DEBEN SER
+REEMPLAZADOS CON INFORMACIÓN REAL ANTES DEL LANZAMIENTO.
+
+CONTACTO:
+---------
+Teléfono/WhatsApp: 266XXXXXXX (REEMPLAZAR)
+Email: contacto@estudioposcaconcaran.com.ar (REEMPLAZAR)
+
+DIRECCIÓN:
+----------
+Av. Principal 123, Concarán, San Luis (REEMPLAZAR)
+
+GOOGLE MAPS:
+------------
+Coordenadas temporales: -32.5508, -65.2440
+URL iframe: (GENERAR cuando se tenga dirección real)
+
+HORARIOS:
+---------
+Lunes a Viernes de 8:00 hs a 16:00 hs (CONFIRMAR)
+
+ARCHIVOS QUE CONTIENEN ESTOS DATOS:
+------------------------------------
+- index.html (líneas 9, 10, 14, 141, 183-184, 198, 640, 663, 670, 677, 684)
+- send.php (líneas 42-43)
+- whatsappcontact.php (líneas 12, 14, 18, 20)
+
+INSTRUCCIONES PARA ACTUALIZAR:
+-------------------------------
+1. Obtener datos reales de la oficina de Concarán
+2. Buscar todos los archivos listados arriba
+3. Reemplazar cada valor marcado como "(TEMPORAL)" o "(CONFIRMAR)"
+4. Para Google Maps:
+   a) Ir a https://www.google.com/maps
+   b) Buscar la dirección real de Concarán
+   c) Click en "Compartir" → "Insertar un mapa"
+   d) Copiar código <iframe>
+   e) Reemplazar en index.html línea 640
+
+===========================================
