@@ -485,6 +485,16 @@ footer p a:hover {
 
 /* === RESPONSIVE === */
 @media (max-width: 992px) {
+  .navbar .container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .navbar .logo {
+    margin: 0 !important;
+  }
+
   .oficina-card {
     margin-bottom: 30px;
   }
@@ -661,4 +671,27 @@ footer p a:hover {
   .footer-sucursales > div:last-child {
     margin-bottom: 0;
   }
+}
+
+/* === SERVICIOS HERO === */
+.servicios-hero {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.servicios-hero li {
+  margin: 10px 0;
+}
+
+.servicios-hero h6 {
+  display: inline;
+  font-weight: 600;
+  color: #fff;
+}
+
+.servicios-hero hr {
+  border-color: rgba(255, 255, 255, 0.3);
+  margin: 15px 0;
 }
